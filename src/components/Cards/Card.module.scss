@@ -1,0 +1,50 @@
+.card {
+  width: 60%;
+  max-width: 500px;
+  margin: 5px auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  p {
+    margin: 0;
+  }
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  p {
+    margin: 0;
+  }
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  .mail {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+  }
+  .tel {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+  }
+}
